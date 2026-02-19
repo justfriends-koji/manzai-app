@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { ManzaiScript } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
+const ai = new GoogleGenAI({ apiKey: AIzaSyDARyV0N7zA1GWYT-b7fI_pcoAZ2j1g9uY"" });
 
 const MANZAI_SYSTEM_INSTRUCTION = `
 あなたはプロの漫才作家であり、同時にベテランの漫才師です。
